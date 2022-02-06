@@ -3,7 +3,7 @@ using System.Text.Json;
 
 namespace BilgeAdam.GenericPractice
 {
-    internal class Program
+    public class Program
     {
         public static void Main(string[] arg)
         {
@@ -83,7 +83,7 @@ namespace BilgeAdam.GenericPractice
             public string Name { get; set; }
         }
 
-        private static void Swap<T>(ref T a, ref T b)
+        public static void Swap<T>(ref T a, ref T b)
         {
             T temp = a;
             a = b;
@@ -91,5 +91,4 @@ namespace BilgeAdam.GenericPractice
         }
     }
 
-    //TODO: Swap methodu için unit test yazınız !!!!
 }

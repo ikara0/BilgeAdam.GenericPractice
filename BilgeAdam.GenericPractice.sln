@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.GenericPractice", "BilgeAdam.GenericPractice\BilgeAdam.GenericPractice.csproj", "{9C1728D5-7559-4725-A2DF-A770C8D4AFF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilgeAdam.GenericPractice", "BilgeAdam.GenericPractice\BilgeAdam.GenericPractice.csproj", "{9C1728D5-7559-4725-A2DF-A770C8D4AFF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.Test", "BilgeAdam.Test\BilgeAdam.Test.csproj", "{510DE86A-5DDE-4920-AD74-16B63BD0BDCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9C1728D5-7559-4725-A2DF-A770C8D4AFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C1728D5-7559-4725-A2DF-A770C8D4AFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C1728D5-7559-4725-A2DF-A770C8D4AFF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{510DE86A-5DDE-4920-AD74-16B63BD0BDCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{510DE86A-5DDE-4920-AD74-16B63BD0BDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{510DE86A-5DDE-4920-AD74-16B63BD0BDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{510DE86A-5DDE-4920-AD74-16B63BD0BDCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
